@@ -1,0 +1,14 @@
+date: This Is A Date String 日付です。
+hoge : You can replace multi word text. 複数の単語の文章を置換できます。 
+body1: body string 本文です。
+body2: |-
+  This Is A veeeeeeery loooooooooong loooooooooong loooooooooong loooooooooong sentence example. これはながーーーーーーーーーーーーーーーーーーーーい、ながーーーーーーーーーーーーい文の例です。
+cell1: value for id あいでー
+cell2: value for name なまえ
+cell3: |-
+  This Is A veeeeeeery loooooooooong loooooooooong loooooooooong loooooooooong sentence
+  with muuuuuuuuuuuuuuuuuulti lines
+  Example
+  これはながーーーーーーーーーーーーーーーーーーーーい、ながーーーーーーーーーーーーい複数行
+  の例
+  です。
