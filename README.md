@@ -39,13 +39,13 @@ CLIのpythonでスクリプトを指定して --template-docxにWordファイル
 
 
 Example: Windowsの場合。
-``` bash
-> python doc-substitute.py --template-docx sample\template1.docx --var-yml sample\var-test.yml
+```bash
+> python3 replacetext-docx.py --template-docx sample\template1.docx --var-yml sample\var-test.yml --out=out.docx
 ```
 
 Example: Linuxの場合。
-``` bash
-$ python doc-substitute.py --template-docx sample/template1.docx --var-yml sample/var-test.yml
+```bash
+$ python replacetext-docx.py --template-docx sample/template1.docx --var-yml sample/var-test.yml --out=out.docx
 ```
 
 
