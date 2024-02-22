@@ -54,19 +54,19 @@ cell3: value for value 値の例です。
 ```
 
 CLIのpythonでスクリプトを動かします。
-オプションの --template-docxに用意したWordファイルを、--var-ymlに作成したYAMLファイルを指定します。 
+オプションの --inputに用意したWordファイルを、--varに作成したYAMLファイルを指定します。 
 
 Run the script using python on the CLI.
-Specify the prepared Word file in option --template-docx and the created YAML file in --var-yml.
+Specify the prepared Word file in option --input and the created YAML file in --var.
 
 Example: Windowsの場合。DOSを使用します。
 ```bash
-> python3 replacetext-docx.py --template-docx sample\template1.docx --var-yml sample\var-test.yml --out=out.docx
+> python3 replacetext-docx.py --input=sample\template1.docx --var=sample\template1.yaml --out=out.docx
 ```
 
 Example: Linuxの場合。
 ```bash
-$ python replacetext-docx.py --template-docx sample/template1.docx --var-yml sample/var-test.yml --out=out.docx
+$ python replacetext-docx.py --input=sample/template1.docx --var=sample/template1.yaml --out=out.docx
 ```
 
 
