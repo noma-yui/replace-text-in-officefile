@@ -78,7 +78,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Docx replacer')
 
     # input data
-    parser.add_argument('--input',
+    parser.add_argument('--in',
                         type = str,
                         required = True,
                         dest = "template_file",
